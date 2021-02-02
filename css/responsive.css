@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1366px) {
+  .form-view {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .centered-section {
+    background: white;
+  }
+  .form-view {
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+  .input-holder {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .centered-section {
+    background: white;
+  }
+  .form-view {
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .centered-section {
+    background: white;
+    display: block;
+  }
+  .thankyou-card {
+    padding-top: 65%;
+  }
+  .form-view {
+    width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

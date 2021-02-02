@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Information Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/responsive.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body>
+        <section class="centered-section">
+            <form class="form-view" action="./thanks.html" method="GET" target="_self">
+                <span class="form-head">User Information</span>
+                <div class="form-inputs">
+                    <div class="input-holder">
+                        <label class="input-label">Firstname:</label>
+                        <input class="input-text" type="text" name="fname" id="fname" placeholder="">
+                    </div>
+                    <div class="input-holder">
+                        <label class="input-label">Lastname:</label>
+                        <input class="input-text" type="text" name="fname" id="fname" placeholder="">
+                    </div>
+                    <div class="input-holder">
+                        <label class="input-label">Gender:</label>
+                        <div class="input-gender">
+                            <input type="radio" name="gender" id="gender" value="male">
+                            <label>Male</label>
+                            <input type="radio" name="gender" id="gender" value="female">
+                            <label>Female</label>
+                        </div>
+                    </div>
+                    <div class="input-holder">
+                        <label class="input-label">Mobile:</label>
+                        <input class="input-text" type="text" name="fname" id="fname" placeholder="">
+                    </div>
+                    <div class="input-holder">
+                        <label class="input-label">Email:</label>
+                        <input class="input-text" type="text" name="fname" id="fname" placeholder="">
+                    </div>
+                    <div class="input-holder">
+                        <label class="input-label">Vehicle:</label>
+                        <div class="input-vehicle">
+                            <input type="checkbox" name="vehicle" id="two-wheeler" value="two-wheeler">
+                            <label>Two - Wheeler</label>
+                        </div>
+                        <div class="input-vehicle">
+                            <input type="checkbox" name="vehicle" id="four-wheeler" value="four-wheeler">
+                            <label>Four - Wheeler</label>
+                        </div>
+                    </div>
+                    <div class="input-holder">
+                        <label class="input-label">City:</label>
+                        <input list="city_list" type="text" name="city" id="city" placeholder="" class="input-text">
+                        <datalist id="city_list">
+                        </datalist>
+                    </div>
+                </div>
+                <div class="form-foot">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </body>
+    <scrip type="text/javascript" src="./assets/cites.json"></scrip>
+    <script type="text/javascript" src="./js/main.js"></script>
+
+</html>

@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1440px) {
+
+}
+
+
+
+@media only screen and (max-width: 1366px) {
+    .form-view {
+        height: max-content;
+    }
+}
+
+
+@media only screen and (max-width: 430px) {
+
+    .centered-section {
+        background: white;
+    }
+    
+    .form-view {
+        width: 100%;
+        height: max-content;
+    }
+
+    .input-holder {
+        width: 80%;
+    }
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    
+    .centered-section {
+        background: white;
+    }
+
+    .form-view {
+        width: 100%;
+        height: max-content;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    
+    .centered-section {
+        background: white;
+        display: block;
+    }
+
+    .thankyou-card {
+        padding-top: 65%;
+    }
+
+    .form-view {
+        width: 100%;
+        height: max-content;
+    }
+}
